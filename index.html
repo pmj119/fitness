@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta property="og:title" content="Prathamesh’s High-Performance Fat Loss Coaching" />
-<meta property="og:description" content="Tailored fat loss coaching for busy professionals ready for real results." />
-<meta property="og:image" content="https://yourdomain.com/path-to-your-image.jpg" />
-<meta property="og:url" content="https://yourdomain.com" />
-<meta property="og:type" content="website" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Prathamesh’s High-Performance Fat Loss Coaching" />
-<meta name="twitter:description" content="Tailored fat loss coaching for busy professionals ready for real results." />
-<meta name="twitter:image" content="https://yourdomain.com/path-to-your-image.jpg" />
-
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Prathamesh Jadhav – Fat Loss Coaching</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="Prathamesh’s High-Performance Fat Loss Coaching" />
+  <meta property="og:description" content="Tailored fat loss coaching for busy professionals ready for real results." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Prathamesh+Fitness" />
+  <meta property="og:url" content="https://yourgithubusername.github.io/prathamesh-fitness-site/" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Prathamesh’s High-Performance Fat Loss Coaching" />
+  <meta name="twitter:description" content="Tailored fat loss coaching for busy professionals ready for real results." />
+  <meta name="twitter:image" content="https://via.placeholder.com/1200x630.png?text=Prathamesh+Fitness" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
   <style>
-    /* Your full styles here (same as added earlier) */
     body {
       font-family: 'Montserrat', sans-serif;
       background: linear-gradient(120deg, #b31217, #000000);
       color: #fff;
+      margin: 0;
+      padding: 0;
     }
     header {
       text-align: center;
@@ -47,6 +50,7 @@
       margin: 2rem auto;
       border-radius: 10px;
       border: 2px solid #ff4d4f;
+      width: fit-content;
     }
     section {
       max-width: 900px;
@@ -113,7 +117,7 @@
 
   <section>
     <h2>Client Transformations</h2>
-    <img src="https://via.placeholder.com/800x400?text=Before+and+After+Photos" style="width:100%; border-radius:10px;">
+    <img src="https://via.placeholder.com/800x400?text=Before+and+After+Photos" style="width:100%; border-radius:10px;" alt="Client Transformations" />
   </section>
 
   <section>
@@ -125,9 +129,9 @@
   <section>
     <h2>FAQ</h2>
     <ul>
-      <li><strong>Do I need to go to a gym?</strong><br>No – home plans available.</li>
-      <li><strong>Is it online?</strong><br>Yes, fully online coaching.</li>
-      <li><strong>What if I don’t see results?</strong><br>We adjust the plan until you do.</li>
+      <li><strong>Do I need to go to a gym?</strong><br />No – home plans available.</li>
+      <li><strong>Is it online?</strong><br />Yes, fully online coaching.</li>
+      <li><strong>What if I don’t see results?</strong><br />We adjust the plan until you do.</li>
     </ul>
   </section>
 
@@ -142,7 +146,7 @@
 
   <script>
     const deadline = new Date(Date.now() + 72 * 60 * 60 * 1000);
-    const timerEl = document.getElementById(\"timer\");
+    const timerEl = document.getElementById('timer');
     setInterval(() => {
       const now = new Date().getTime();
       const t = deadline - now;
