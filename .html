@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prathamesh Jadhav – Fat Loss Coaching</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* Your full styles here (same as added earlier) */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(120deg, #b31217, #000000);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background: #fff;
+      color: #b31217;
+      border-radius: 40px;
+      font-weight: bold;
+      margin: 1rem auto;
+      text-decoration: none;
+    }
+    #countdown {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 1rem;
+      margin: 2rem auto;
+      border-radius: 10px;
+      border: 2px solid #ff4d4f;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .testimonial {
+      background: #222;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 2rem;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 40px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prathamesh’s High-Performance Fat Loss Coaching</h1>
+    <p>For busy professionals tired of average results. Start seeing real change.</p>
+  </header>
+
+  <div id="countdown">⏳ Limited-time offer ends in: <span id="timer">Loading...</span></div>
+  <div style="text-align:center;">
+    <a class="cta-button" href="https://wa.me/919800657070">🚀 Book Now</a>
+  </div>
+
+  <div style="text-align:center; padding: 2rem;">
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/fenA6zwk1SI" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <section>
+    <h2>Who This Is For</h2>
+    <ul>
+      <li>✅ Busy professionals with limited time</li>
+      <li>✅ People who’ve tried everything but failed</li>
+      <li>✅ Those serious about getting visible results</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What You'll Get</h2>
+    <ul>
+      <li>🥗 Personalized meal plan</li>
+      <li>🏋️‍♂️ Custom workout plan</li>
+      <li>📱 Weekly coaching check-ins</li>
+      <li>🔥 Complete fat-loss blueprint</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Client Transformations</h2>
+    <img src="https://via.placeholder.com/800x400?text=Before+and+After+Photos" style="width:100%; border-radius:10px;">
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <div class="testimonial">“I lost 8kg in 2 months without starving. Prathamesh’s system works!” – Rohit</div>
+    <div class="testimonial">“Super simple and effective. I look better and feel better.” – Anjali</div>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <ul>
+      <li><strong>Do I need to go to a gym?</strong><br>No – home plans available.</li>
+      <li><strong>Is it online?</strong><br>Yes, fully online coaching.</li>
+      <li><strong>What if I don’t see results?</strong><br>We adjust the plan until you do.</li>
+    </ul>
+  </section>
+
+  <section style="text-align:center;">
+    <h2>Choose Your Plan</h2>
+    <p>Monthly: ₹4999 | Yearly: ₹34,999 (save 40%)</p>
+    <a class="cta-button" href="https://wa.me/919800657070">💪 Start Now</a>
+  </section>
+
+  <footer>© 2025 Prathamesh Fitness</footer>
+  <a class="whatsapp-float" href="https://wa.me/919800657070" target="_blank">💬 Chat</a>
+
+  <script>
+    const deadline = new Date(Date.now() + 72 * 60 * 60 * 1000);
+    const timerEl = document.getElementById(\"timer\");
+    setInterval(() => {
+      const now = new Date().getTime();
+      const t = deadline - now;
+      const h = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const m = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((t % (1000 * 60)) / 1000);
+      timerEl.innerHTML = `${h}h ${m}m ${s}s`;
+    }, 1000);
+  </script>
+</body>
+</html>
